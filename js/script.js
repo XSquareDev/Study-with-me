@@ -185,7 +185,7 @@ popupBtn.addEventListener('click', function (e) {
 
 // Inputs settings
 function checkInputs() {
-  if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);
+  if (this.value.length > 2) this.value = this.value.slice(0, 2);
   if (this.value < 0) this.value = 0;
 }
 
